@@ -93,8 +93,3 @@ Ping tests were performed between devices belonging to different VLANs to verify
 - `packet-tracer/` – Cisco Packet Tracer project file.
 - `configurations/` – Router and switch configurations.
 - `README.md` – Project documentation.
-
-## Author
-
-Arunkumar
-
