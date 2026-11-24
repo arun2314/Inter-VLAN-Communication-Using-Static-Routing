@@ -1,0 +1,32 @@
+enable
+configure terminal
+
+vlan 60
+name ops
+exit
+
+vlan 70
+name testing
+exit
+
+vlan 80
+name admin
+exit
+
+interface range fastEthernet 0/1-2
+switchport mode access
+switchport access vlan 60
+
+interface range fastEthernet 0/3-4
+switchport mode access
+switchport access vlan 70
+
+interface range fastEthernet 0/5-6
+switchport mode access
+switchport access vlan 80
+
+interface fastEthernet 0/7
+switchport mode trunk
+switchport trunk allowed vlan 60,70,80
+
+exit
