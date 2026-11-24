@@ -98,4 +98,3 @@ Ping tests were performed between devices belonging to different VLANs to verify
 
 Arunkumar
 
-Arunkumar
