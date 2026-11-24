@@ -12,7 +12,7 @@ The main objective is to establish end-to-end communication between devices belo
 
 ## Network Topology
 
-![Network Topology](Image/Network-Topology.png)
+![Network Topology](Images/Network-Topology.png)
 
 ## Network Architecture
 
